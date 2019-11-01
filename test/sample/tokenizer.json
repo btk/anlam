@@ -1,0 +1,14 @@
+[
+  {
+    "argument": {
+      "string": "bugün çok yorulduk"
+    },
+    "output": "bugün, çok, yorulduk"
+  },
+  {
+    "argument": {
+      "string": "geldim, gördüm, yendim"
+    },
+    "output": "geldim, gördüm, yendim"
+  }
+]

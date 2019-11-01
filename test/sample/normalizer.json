@@ -1,0 +1,20 @@
+[
+  {
+    "argument": {
+      "string": "merhaba dÜnya,ben burak"
+    },
+    "output": "merhaba dünya, ben burak"
+  },
+  {
+    "argument": {
+      "string": "pazardan elma,armut aldım.eve gelip yedim"
+    },
+    "output": "pazardan elma, armut aldım. eve gelip yedim"
+  },
+  {
+    "argument": {
+      "string": "YETER ARTIK!  yapTIkLarın hoşuma gitmiyor."
+    },
+    "output": "yeter artık! yaptıkların hoşuma gitmiyor."
+  }
+]
