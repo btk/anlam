@@ -14,7 +14,10 @@ export default function normalizer(options, anlam) {
   }
 
   // lowercase all for easier processing
-  normalized = lowerCase(normalized);
+  normalized = lowerCase({string: normalized});
+  if(typeof anlam === "undefined"){
+    return normalized;
+  }
 
   anlam.set(normalized);
   return anlam;

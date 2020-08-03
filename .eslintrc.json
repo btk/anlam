@@ -235,7 +235,7 @@
       }
     ],
     // enforce consistent spacing before and after keywords
-    "keyword-spacing": 1,
+    "keyword-spacing": 0,
     // enforce a maximum line length
     "max-len": [
       1,
@@ -294,7 +294,7 @@
     // require or disallow semicolons instead of ASI
     "semi": 1,
     // enforce consistent spacing before blocks
-    "space-before-blocks": 1,
+    "space-before-blocks": 0,
     // enforce consistent spacing before function definition opening parenthesis
     "space-before-function-paren": [
       1,

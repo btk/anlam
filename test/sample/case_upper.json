@@ -1,0 +1,20 @@
+[
+  {
+    "argument": {
+      "string": "merhaba dÜnya"
+    },
+    "output": "MERHABA DÜNYA"
+  },
+  {
+    "argument": {
+      "string": "işişfğpPFÜüisşçvinğüq,sd!"
+    },
+    "output": "İŞİŞFĞPPFÜÜİSŞÇVİNĞÜQ,SD!"
+  },
+  {
+    "argument": {
+      "string": "yeni bir ayakkabı aldım."
+    },
+    "output": "YENİ BİR AYAKKABI ALDIM."
+  }
+]

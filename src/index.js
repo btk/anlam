@@ -1,5 +1,6 @@
 import tokenizer from './tools/tokenizer.js';
 import normalizer from './tools/normalizer.js';
+import { lowerCase, upperCase, titleCase } from './tools/case.js';
 
 export default class Anlam {
   constructor(argument) {
@@ -48,18 +49,8 @@ export default class Anlam {
   }
 
   // Normalize the text into a lexically formal format
-  normalize(options) {
-    let argument = options;
-
-    if (typeof argument === `object`) {
-      argument.string = this.anlam.string;
-    } else if (typeof this.anlam.normalize === `object`) {
-      argument = this.anlam.tokenize;
-      argument.string = this.anlam.string;
-    } else {
-      argument = {string: this.anlam.string};
-    }
-
+  normalize() {
+    let argument = this.anlam;
     let output = normalizer(argument, this);
 
     this.history(`normalize`, output);
@@ -67,21 +58,38 @@ export default class Anlam {
   }
 
   // Create tokens of words from string
-  tokenize(options) {
-    let argument = options;
-
-    if (typeof argument === `object`) {
-      argument.string = this.anlam.string;
-    } else if (typeof this.anlam.tokenize === `object`) {
-      argument = this.anlam.tokenize;
-      argument.string = this.anlam.string;
-    } else {
-      argument = {string: this.anlam.string};
-    }
-
+  tokenize() {
+    let argument = this.anlam;
     let output = tokenizer(argument, this);
 
     this.history(`tokenize`, output);
+    return output;
+  }
+
+  // Turn the string into lowercase
+  lower() {
+    let argument = this.anlam;
+    let output = lowerCase(argument, this);
+
+    this.history(`lower`, output);
+    return output;
+  }
+
+  // Turn the string into uppercase
+  upper() {
+    let argument = this.anlam;
+    let output = upperCase(argument, this);
+
+    this.history(`upper`, output);
+    return output;
+  }
+
+  // Turn the string into titlecase
+  title() {
+    let argument = this.anlam;
+    let output = titleCase(argument, this);
+
+    this.history(`title`, output);
     return output;
   }
 
