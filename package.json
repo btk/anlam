@@ -1,6 +1,6 @@
 {
-  "name": "Anlam",
-  "version": "1.0.0",
+  "name": "anlam",
+  "version": "1.0.1",
   "description": "Sözcüksel ve istatistik tabanlı morfolojik Türkçe doğal dil işleme kütüphanesi.",
   "main": "lib/Anlam.js",
   "files": [

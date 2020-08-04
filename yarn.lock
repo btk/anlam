@@ -881,6 +881,11 @@ ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+anlam@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/anlam/-/anlam-1.0.1.tgz#2a7d4777add15341b961b0180f37a193b9da22c8"
+  integrity sha512-YYb9g/GG3vEGU5nvkMDvxAj4n0uCE8pEWxKw8vhJfWWkjbv7yv3JnQTbnCRNlbcX1U6zNBqYTS5DWD7WTBkBWw==
+
 ansi-colors@3.2.3:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.3.tgz#57d35b8686e851e2cc04c403f1c00203976a1813"
