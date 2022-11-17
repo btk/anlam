@@ -4,6 +4,12 @@
 
 # anlam
 
+Unfortunately with the recent boom in LLMs, I don't see a point in working on this project. Feel free to fork or ask for maintainer privalages to keep working on this, as I think adding a full list of manual task handlers addition to tokenizer and normalizers can make this useful for smaller tasks and offline projects.
+
+Ne yazık ki, LLM'lerdeki son kullanım alanı genişlemesiyle bu proje üzerinde çalışmanın bir anlamını görmüyorum. Tokenizer ve normalleştiricilere ek olarak manuel görev işleyicilerin tam listesini implement etmenin, daha küçük veya hızın önemli olduğu ve çevrimdışı projeler için yararlı hale getirebileceğini düşündüğümden, bunun üzerinde çalışmaya devam etmek için bakıcı maintainerlık istemekten veya pull request göndermekten çekinmeyiniz.
+
+https://anlam.dev
+
 Webpack starter kit for creating libraries (Input: ES6, Output: UMD, CommonJS)
 
 ## Features
